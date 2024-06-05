@@ -1,0 +1,25 @@
+.header{
+    height: 60px;
+    background-color:white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left:50px; 
+    padding-right: 180px;
+}
+nav.header a{
+    text-decoration: none;
+    padding-left: 30px;
+    color:black;
+
+}
+nav.header a:hover{
+    color:orange;
+}
+.header-img{
+    margin:0px 0px 0px 10px;
+}
+.logo{
+    width:40%;
+    height: 500%;
+}

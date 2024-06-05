@@ -5,7 +5,7 @@
       "image_Profile": "url://images/profile.png",
       "cover_Image": "url://images/1.jpg",
       "author_Image": "url://images/boy1.png",
-      "read_Time": 5,
+      "read_Time":5,
       "tags": [
         "#beginner#ender#programmer"
       ]
