@@ -1,12 +1,13 @@
 [
     {
       "id": 1,
-      "author_Name": "Mr.Raja",
-      "cover": "./images/1.jpg",
+      "author_Name": "Mr,Raja",
+      "image_Profile": "images/profile.png",
+      "cover_Image": "images/1.jpg",
       "title": "Component lifecycle in React — Class component vs Functional component",
-      "author_Image": "./images/boy1.png",
+      "author_Image": "images/boy1.png",
       "posted_date": "September 15, 2023",
-      "read_Time":5,
+      "read_Time": 5,
       "tags": [
         "#beginner#ender#programmer"
       ]
@@ -14,8 +15,8 @@
     {
       "id": 2,
       "author_Name": "Mrs. Setara",
-      "cover": "./images/2.png",
-      "author_Image": "./images/boy2.png",
+      "cover_Image": "images/2.png",
+      "author_Image": "images/boy2.png",
       "title": "Free images and resources collection for website",
       "posted_date": "August 5, 2023",
       "read_Time": 10,
@@ -26,8 +27,8 @@
     {
       "id": 3,
       "author_Name": "Mina Mostofa",
-      "cover": "./images/3.png",
-      "author_Image": "./images/girl1.jpg",
+      "cover_Image": "images/3.png",
+      "author_Image": "images/girl1.jpg",
       "title": "JavaScript Objects for Absolute Beginners: A Fun Introduction",
       "posted_date": "July 1, 2023",
       "read_Time": 20,
@@ -38,8 +39,8 @@
     {
       "id": 4,
       "author_Name": "Mitali Chaterjee",
-      "cover": "./images/4.jpg",
-      "author_Image": "./images/girl2.jpg",
+      "cover_Image": "images/4.jpg",
+      "author_Image": "images/girl2.jpg",
       "title": "Free images and resources collection for website",
       "posted_date": "Jun 15, 2023",
       "read_Time": 30,
@@ -48,3 +49,4 @@
       ]
     }
   ]
+  

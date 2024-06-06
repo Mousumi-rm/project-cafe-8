@@ -1,0 +1,40 @@
+.main-inside-blog-container{
+    padding: 100px 50px 0px 50px;
+}
+.image-cover{
+    width: 845px;
+    height: 450px;
+    border-radius: 10px;
+}
+.name-author{
+    color: black;
+    margin: 20px 0px 0px 30px ;
+}
+.info-img{
+    width: 60px;
+    height: 60px;
+}
+.info-author{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.author_Name{
+    color: #111;
+    font-family: "Exo 2";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 38.4px */
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.posted_date{
+    color: rgba(17, 17, 17, 0.60);
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 160%; 25.6px */
+    margin-top: 0px;
+}
