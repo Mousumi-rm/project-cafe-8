@@ -1,3 +1,27 @@
-.blogs-container{
-    
+.total-blogs-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 50px 60px 20px 60px;
+    color: black;
+}
+.bloggers-container{
+   margin: 10px;
+}
+.side-Bar-reading-time{
+    background-color: bisque;
+    width: 340px;
+    height: 1352px;
+    margin: 55px 0px 0px 0px;
+    position: sticky;
+    border-radius: 10px;
+}
+
+.ReadingTime{
+    background-color: beige;
+    color:black;
+    margin: 10px;
+}
+.Bookmark{
+   color:black;
+   margin:10px
 }

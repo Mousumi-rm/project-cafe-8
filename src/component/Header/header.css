@@ -4,8 +4,8 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding-left:50px; 
-    padding-right: 180px;
+    padding-left:10px; 
+    padding-right: 60px;
 }
 nav.header a{
     text-decoration: none;
@@ -20,6 +20,6 @@ nav.header a:hover{
     margin:0px 0px 0px 10px;
 }
 .logo{
-    width:40%;
+    width:30%;
     height: 500%;
 }
