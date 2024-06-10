@@ -7,7 +7,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     const[bookMarks,setBookMarks] = useState([])
-    const[readingTime,setReading] = useState([])
+    const[readingTime,setReading] = useState(0)
     const [blogs ,setBlogs] = useState([]);
     useEffect(()=>{
         fetch('cafe.json')
@@ -18,16 +18,17 @@ const Blogs = () => {
     const handleAddToBookmark =(blog)=>{
         const newBookMark = [...bookMarks, blog]
         setBookMarks(newBookMark);
+
+       
     }
-    const handelToReadingTime = (readingTime )=>{  
-        let time = 0
-       for(const blog of readingTime){
-        const newReadingTime = time + blog.read_Time ; 
+    
+    const handelToReadingTime = (blog)=>{   
+        const newReadingTime = readingTime + blog.read_Time ; 
         setReading(newReadingTime);
-        
-       }
-          const remainingBookmark = bookMarks.filter(bookMark =>bookMark.id !== id);
+
+        const remainingBookmark = bookMarks.filter(bookMark =>bookMark.id !== id);
         setBookMarks(remainingBookmark);
+
     }
        
     return (

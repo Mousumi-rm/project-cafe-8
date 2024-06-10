@@ -32,7 +32,9 @@ const InsideBlog = (props) => {
                                 <p>{read_Time} min Time</p>
                                 <button 
                                    onClick={()=>handleAddToBookmark(blog)}
-                                className='bookmark-btn'><FontAwesomeIcon className='icon' icon={ faBookmark} /></button>
+                                className='bookmark-btn'>
+                                    <FontAwesomeIcon className='icon' 
+                                    icon={ faBookmark} /></button>
                                 </div>
                         </div>
                     
@@ -44,9 +46,9 @@ const InsideBlog = (props) => {
                     </div> 
                     <div className='author-container'>
                         {/* <button className='read-more'>Mark As Read</button> */}
-                        <a  
-                          onClick={()=>handelToReadingTime(blog.read_Time)}
-                        className='read-more' href="/markAsRead">Mark As Read</a>
+                        <button 
+                          onClick={()=>handelToReadingTime(blog)}
+                        className='read-more' href="/markAsRead">Mark As Read</button>
                     </div>  
                 </div>
     );
